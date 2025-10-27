@@ -5,9 +5,8 @@
 }
 
 body {
+  background: #f8f9fa;
   font-family: 'Poppins', sans-serif;
-  background: #0f0f0f;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,55 +14,42 @@ body {
 }
 
 .container {
-  width: 90%;
-  max-width: 700px;
-  background: #1a1a1a;
-  padding: 30px;
-  border-radius: 12px;
   text-align: center;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
 }
 
 h1 {
-  color: #ff3c00;
+  color: #333;
   margin-bottom: 20px;
 }
 
 button {
-  background: #ff3c00;
+  background: #ff6b6b;
   color: white;
   border: none;
   padding: 12px 25px;
+  font-size: 16px;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-  transition: 0.3s;
+  transition: background 0.3s ease;
 }
 
 button:hover {
-  background: #e63200;
+  background: #e45a5a;
 }
 
-.car-list {
-  margin-top: 25px;
+.dog-img {
+  margin-top: 20px;
 }
 
-.car-card {
-  background: #222;
-  padding: 15px;
-  margin-bottom: 12px;
-  border-radius: 8px;
-  text-align: left;
-  border-left: 4px solid #ff3c00;
-}
-
-.car-card h2 {
-  color: #ff3c00;
-  margin-bottom: 5px;
-}
-
-.car-card p {
-  color: #ccc;
-  font-size: 14px;
+.dog-img img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 3px solid #ff6b6b;
 }
